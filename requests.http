@@ -6,7 +6,7 @@ POST  http://localhost:3000/messages
 content-type: application/json
 
 {
-    "content": "hi there"
+    "content": "second message"
 }
 
 ### Verify validator of content - number; expect 400
@@ -43,5 +43,5 @@ content-type: application/json
 
 
 ### Get a specific message by id
-GET http://localhost:3000/messages/123123123
+GET http://localhost:3000/messages/523
 
